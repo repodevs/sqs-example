@@ -1,0 +1,24 @@
+{
+  "name": "sqs-example",
+  "version": "1.0.0",
+  "description": "Amazon SQS Producer and Consumer example",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.439.0",
+    "dotenv": "^7.0.0",
+    "easy-await-to": "^1.0.0",
+    "express": "^4.16.4",
+    "ihub": "^1.0.0",
+    "module-alias": "^2.2.0",
+    "pino": "^5.12.2",
+    "sqs-consumer": "^5.2.0",
+    "sqs-producer": "^1.6.3",
+    "uuid": "^3.3.2"
+  }
+}
